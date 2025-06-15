@@ -1,26 +1,27 @@
 import { card } from "./card"
-import logo75 from "../assets/design/logo75.png"
- 
+import faviconhd from "../assets/images/faviconhd.png"
+import logo75 from "../assets/images/logo75.png"
+import bandera from "../assets/images/banderachm.png"
 
 export const CardsContainer = () => {
   const services = [
     { id: 1,
       title: "Servicio 1",
       description: "Descripción del servicio 1",
-      image: "",
+      image: faviconhd,
       color: "blue"  // Añadido color para el primer servicio
     },
     {
         id: 2,
       title: "Servicio 2",
       description: "Descripción del servicio 2",
-      image: "",
+      image: logo75,
       color: "green"  // Añadido color para el segundo servicio
     },
     { id: 3,
       title: "Servicio 3",
       description: "Descripción del servicio 3",
-      image: "https://via.placeholder.com/150",
+      image: bandera,
         color: "red"  // Añadido color para el tercer servicio
     },
   ]  
